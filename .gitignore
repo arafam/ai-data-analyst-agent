@@ -1,0 +1,48 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local credentials (keep the example template)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Local databases and uploaded/private data
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db-*
+uploads/
+data/private/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Logs and backup copies
+*.log
+*.bak
+*.backup
+
+# Streamlit runtime files
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Test and tooling caches
+.tox/
+.nox/
+.pyre/
+.pytype/
